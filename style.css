@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #2b6cb0;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border-left: 6px solid #3182ce;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+li.arithmetic { border-left-color: #e53e3e; }
+li.geometry   { border-left-color: #38a169; }
+li.algebra    { border-left-color: #805ad5; }
+li.logic      { border-left-color: #dd6b20; }
+li.fractions  { border-left-color: #3182ce; }
+
+li:hover {
+  transform: translateX(5px);
+  background-color: #edf2f7;
+}
+
+a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2b6cb0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 5px 0 0;
+}
